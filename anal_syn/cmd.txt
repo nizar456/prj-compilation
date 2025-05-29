@@ -1,0 +1,2 @@
+cd C:\prj compilation\anal_syn
+sniptor.exe < tests/test_boucleFor.txt

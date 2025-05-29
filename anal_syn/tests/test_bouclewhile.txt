@@ -1,0 +1,6 @@
+repeat {
+    while (x lt 10) do {
+        show x ::
+        x <- x + 1 ::
+    }
+}

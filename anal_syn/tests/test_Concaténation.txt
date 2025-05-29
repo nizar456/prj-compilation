@@ -1,0 +1,3 @@
+nom <- "Alice" ::
+message <- "Bonjour, " + nom ::
+show message ::

@@ -1,0 +1,6 @@
+repeat {
+    do {
+        show y ::
+        y <- y - 0.5 ::
+    } while (y gte 0)
+}

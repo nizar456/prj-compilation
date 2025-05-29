@@ -1,0 +1,7 @@
+protect {
+    int a <- 10 ::
+    int b <- 0 ::
+    int c <- a / b ::
+} capture (ZeroDivisionError) {
+    show "Erreur : division par zero" ::
+}
