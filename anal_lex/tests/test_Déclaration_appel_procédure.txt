@@ -1,0 +1,5 @@
+create procedure greet (str name) {
+    show "Hello, " + name ::
+}
+
+greet("Alice") ::

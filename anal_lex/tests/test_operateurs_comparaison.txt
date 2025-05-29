@@ -1,0 +1,9 @@
+x <- 5 ::
+y <- 10 ::
+res1 <- x gt y ::    
+res2 <- x gte y ::   
+res3 <- x lt y ::    
+res4 <- x lte y ::   
+res5 <- x eq 5 ::    
+res6 <- x neq 10 ::  
+

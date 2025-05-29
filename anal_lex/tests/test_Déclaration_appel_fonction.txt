@@ -1,0 +1,6 @@
+create int function add(int a, int b) {  
+    => a + b ::  
+}  
+
+int result <- add(5, 3) ::  
+show "Resultat: " + result ::  
