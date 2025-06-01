@@ -2186,21 +2186,21 @@ yyreduce:
 /* Line 1792 of yacc.c  */
 #line 205 "sniptor.y"
     { (yyval.str) = strdup("REAL");
-    fprintf(ast_file, "REAL %d\n", (yyvsp[(1) - (1)].real)); }
+    fprintf(ast_file, "REAL %f\n", (yyvsp[(1) - (1)].real)); }
     break;
 
   case 62:
 /* Line 1792 of yacc.c  */
 #line 207 "sniptor.y"
     { (yyval.str) = strdup((yyvsp[(1) - (1)].str));
-    fprintf(ast_file, "STRING %d\n", (yyvsp[(1) - (1)].str)); }
+    fprintf(ast_file, "STRING %s\n", (yyvsp[(1) - (1)].str)); }
     break;
 
   case 63:
 /* Line 1792 of yacc.c  */
 #line 209 "sniptor.y"
     { (yyval.str) = strdup("CHAR");
-    fprintf(ast_file, "CHAR %d\n", (yyvsp[(1) - (1)].chr)); }
+    fprintf(ast_file, "CHAR %s\n", (yyvsp[(1) - (1)].chr)); }
     break;
 
   case 64:

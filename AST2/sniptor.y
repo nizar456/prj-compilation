@@ -203,11 +203,11 @@ expression:
     | NUMBER                    { $$ = strdup("NUMBER");
     fprintf(ast_file, "NUM %d\n", $1); }
     | REAL                      { $$ = strdup("REAL");
-    fprintf(ast_file, "REAL %d\n", $1); }
+    fprintf(ast_file, "REAL %f\n", $1); }
     | STRING                    { $$ = strdup($1);
-    fprintf(ast_file, "STRING %d\n", $1); }
+    fprintf(ast_file, "STRING %s\n", $1); }
     | CHAR                      { $$ = strdup("CHAR");
-    fprintf(ast_file, "CHAR %d\n", $1); }
+    fprintf(ast_file, "CHAR %s\n", $1); }
     | TRUE                      { $$ = strdup("TRUE");
     fprintf(ast_file, "BOOL True\n"); }
     | FALSE                     { $$ = strdup("FALSE");

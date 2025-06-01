@@ -1,20 +1,20 @@
 NUM 10
-DECL int x
+DECL CONST int x
 EXPR
-REAL 0
+REAL 3.140000
 DECL flt y
+EXPR
+STRING "Hello, world!"
+DECL str message
+EXPR
+BOOL True
+DECL bol flag
 EXPR
 ID x
 ID y
 BIN_OP + x y
 SHOW
-NUM 10
-DECL int nizar
-EXPR
-NUM 33
-DECL int h
-EXPR
-ID nizar
-ID h
-BIN_OP + nizar h
+ID message
+ID flag
+BIN_OP - message flag
 SHOW
