@@ -1,0 +1,6 @@
+int x <- 10 ::
+flt y <- 5.5 ::
+show x + y ::
+int nizar <- 10 ::
+int h <- 33 ::
+show nizar + h ::

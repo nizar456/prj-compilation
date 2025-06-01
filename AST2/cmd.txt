@@ -1,0 +1,11 @@
+cd C:\prj_compilation\AST2
+parser.exe < tests/simple.txt  
+test_DéclarationVariable.txt
+
+
+
+
+win_bison -d sniptor.y
+gcc -c ast.c -o ast.o
+gcc ast_builder.c ast.o -o ast_builder.exe
+gcc sniptor.tab.c lex.yy.c common.c -o parser

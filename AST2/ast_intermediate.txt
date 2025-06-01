@@ -1,0 +1,20 @@
+NUM 10
+DECL int x
+EXPR
+REAL 0
+DECL flt y
+EXPR
+ID x
+ID y
+BIN_OP + x y
+SHOW
+NUM 10
+DECL int nizar
+EXPR
+NUM 33
+DECL int h
+EXPR
+ID nizar
+ID h
+BIN_OP + nizar h
+SHOW
