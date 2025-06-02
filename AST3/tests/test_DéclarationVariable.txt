@@ -1,0 +1,4 @@
+int x <- 10 ::
+flt y <- 3.14 ::
+str message <- "Hello, world!" ::
+bol flag <- True ::

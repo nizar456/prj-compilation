@@ -1,0 +1,6 @@
+enter "Entrez un nombre" ::
+show "Bienvenue dans Sniptor !" ::
+int x <- 10 ::
+flt y <- 5.5 ::
+show x + y ::
+show "Le resultat est : " + x ::
