@@ -20,7 +20,7 @@ int types_compatibles(const char* type1, const char* type2);
 
 // Ajoute une erreur sémantique et arrête l'analyse
 void erreur_semantique(const char *msg, int ligne) {
-    printf("Erreur semantique ligne %d : %s\n", ligne, msg);
+    printf("Erreur semantique : %s\n", msg);
     is_valid = 0;
 }
 
