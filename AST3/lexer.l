@@ -107,6 +107,8 @@ void update_position();
 
 .               { yylloc.first_column++; }  
 
+^#.*        { /* ignorer les commentaires de type # ... */ }
+
 %%
 
 void update_position() {

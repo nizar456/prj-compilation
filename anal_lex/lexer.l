@@ -95,7 +95,9 @@ dict    { printf("TYPE: dictionnaire\n"); }
 [ \t\n\r]+      { /* Ignore les espaces, tabulations et retours à la ligne */ }
 
 . { printf("CARACTERE INCONNU: %s\n", yytext); }
-    
+
+^#.*        { /* ignorer les commentaires de type # ... */ }
+  
 %%
     
 int main() {
