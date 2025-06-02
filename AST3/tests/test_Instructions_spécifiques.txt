@@ -1,7 +1,0 @@
-explain {
-    show "Ceci est une explication" ::
-}
-
-complexity {
-    show "Analyse de complexite" ::
-}

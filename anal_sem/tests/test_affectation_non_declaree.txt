@@ -1,0 +1,2 @@
+[^ Test : Affectation à une variable non déclarée ^]
+x <- 5 ::

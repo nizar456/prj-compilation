@@ -1,0 +1,3 @@
+gcc sniptor.tab.c lex.yy.c common.c ast.c -o parser 
+
+parser.exe < tests/test_Déclaration_appel_fonction.txt

@@ -1,0 +1,2 @@
+[^ Test : Appel d'une fonction non déclarée ^]
+result <- add(1, 2) ::

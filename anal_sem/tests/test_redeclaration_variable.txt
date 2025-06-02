@@ -1,0 +1,3 @@
+[^ Test : Redéclaration de variable ^]
+int x <- 5 ::
+int x <- 7 ::

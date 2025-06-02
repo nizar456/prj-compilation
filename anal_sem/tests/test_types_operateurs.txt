@@ -1,0 +1,6 @@
+[^ Test : Operateurs arithmetiques sur types non numeriques (doit echouer) ^]
+int a <- 5 ::
+int b <- 2 ::
+int c <- a + b ::
+int d <- a + "chaine" ::
+

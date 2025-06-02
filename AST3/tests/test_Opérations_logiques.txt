@@ -1,5 +1,0 @@
-a <- true and false ::  
-b <- true or false ::   
-c <- not true ::       
-d <- true xor false ::  
-

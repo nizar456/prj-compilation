@@ -1,4 +1,4 @@
-# Test des déclarations de tableaux, listes et dictionnaires
+[^ Test des déclarations de tableaux, listes et dictionnaires ^] 
 lst tab1[10] ::
 lst tab2[1, 2, 3, 4] ::
 dict d1{"a":"b", "c":"d"} ::

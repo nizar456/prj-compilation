@@ -96,7 +96,6 @@ dict    { printf("TYPE: dictionnaire\n"); }
 
 . { printf("CARACTERE INCONNU: %s\n", yytext); }
 
-^#.*        { /* ignorer les commentaires de type # ... */ }
   
 %%
     
