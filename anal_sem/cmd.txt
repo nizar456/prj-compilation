@@ -1,5 +1,5 @@
 
 gcc sniptor.tab.c lex.yy.c common.c ast.c semantique.c -o parser.exe
 
-
+cd C:\prj_compilation\anal_sem
 parser.exe < tests/test_modification_constante.txt

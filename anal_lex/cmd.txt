@@ -1,2 +1,3 @@
-cd C:\prj compilation\anal_lex
+cd C:\prj_compilation\anal_lex
+
 lexer.exe < tests/test_boucleFor.txt

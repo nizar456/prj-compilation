@@ -1,3 +1,4 @@
 gcc sniptor.tab.c lex.yy.c common.c ast.c -o parser 
 
+cd C:\prj_compilation\AST
 parser.exe < tests/test_Déclaration_appel_fonction.txt
